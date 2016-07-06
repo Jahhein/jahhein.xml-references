@@ -1,0 +1,22 @@
+<a href="http://www.tutorialspoint.com/">Tutorialspoint!</a>
+
+<!-- # href is the attribute -> www.tutorialspoint.com is the value of the attribute. -->
+
+<!-- # An Atribute specifies a single property for the element, using a name/value pair.
+# An XML-element can have one or more attributes. -->
+
+<!-- ### Rules for Syntax of Attributes
+# Attributes names in XML (unlike HTML) are case-sensitive. That is HREF and href are
+# two different XML attributes.
+#
+# Same attribute cannot have two values in a syntax. The follow example shows
+# incorrectly syntax because the attribute b is specified twice : -->
+<a b="x" c="y" b="z">....</a>
+
+<!--
+ Attribute names are defined without quatation marks, whereas attribute values must
+ always appear in quotation marks. Following example demonstrats incorrect xml syntax:
+-->
+<a b=x>...</a>
+
+ <!-- In the above syntax, the attribute value is not defined in quotation marks. -->
