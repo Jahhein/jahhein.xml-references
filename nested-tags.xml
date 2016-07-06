@@ -4,13 +4,13 @@
 <contact-info>
 </company>
 
-# Incorrect
+<!-- # Incorrect -->
 
 <?xml version="1.0"?>
 <contact-info>
 <company>TutorialsPoint</company>
 <contact-info>
 
-# Correct
+<!-- # Correct -->
 
-# TODO initiate repo on github to push to.
+<!-- # TODO initiate repo on github to push to. -->
