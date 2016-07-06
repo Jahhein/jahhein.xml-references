@@ -1,0 +1,25 @@
+<!-- XML elements can be defined as building blocks of an XML.
+Elements can behave as containers to hold text, elements,
+ attributes, media objects or all of these.
+
+Each XML document contains one or more elements,
+the scope of which are either delimited by start and end tags,
+ or for empty elements, by an empty-element tag. -->
+
+ <!-- SYNTAX -->
+ <element-name attribute1 attribute2>
+   <!-- ....content -->
+</element-name>
+
+
+<!--
+element-name is the name of the element.
+The name its case in the start and end tags must match.
+
+attribute1, attribute2 are attributes of the element separated by white spaces.
+An attribute defines a property of the element. It associates a name with a value,
+which is a string of characters. An attribute is written as:
+
+name = "value"
+name is followed by an = sign and a string value inside double(" ") or single(' ') quotes.
+-->

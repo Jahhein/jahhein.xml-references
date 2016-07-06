@@ -1,0 +1,33 @@
+<?xml
+   version="version_number"
+   encoding="encoding_declaration"
+   standalone="standalone_status"
+?>
+
+<!-- more examples of xml-declarations -->
+
+
+
+
+<!-- XML Dec. with no parameters. -->
+
+<?xml >
+
+
+
+<!-- XML dec. with version definition. -->
+
+<?xml version="1.0">
+
+
+
+<!-- XML declaration with all parameters defined -->
+
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+
+
+
+<!-- XML Dec. with all parameters defined in single quotes. -->
+
+<?xml version='1.0' encoding='iso-8859-1' standalone='no' ?>

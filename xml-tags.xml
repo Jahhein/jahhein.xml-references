@@ -1,0 +1,39 @@
+<!-- Let us learn about one of the most important part of XML,
+the XML tags. XML tags form the foundation of XML. They define
+the scope of an element in the XML. They can also be used to
+insert comments, declare settings required for parsing the
+environment and to insert special instructions. -->
+
+<!-- basic  -->
+<address> </address>
+
+
+<!-- The text that appears between start-tag and end-tag is called content.
+ An element which has no content is termed as empty.
+ An empty element can be represented in two ways as below: -->
+<hr></hr>
+
+
+<!-- A complete empty-element tag is as shown below:  -->
+<hr />
+
+
+<!-- XML tags are case-sensitive. Following line of code is an example
+of wrong syntax </Address>, because of the case difference in two tags,
+which is treated as erroneous syntax in XML. -->
+<address>This is wrong syntax</Address>
+
+
+<!-- Following code shows a correct way, where we use the
+same case to name the start and the end tag. -->
+<address>This is correct syntax</address>
+
+
+<!-- XML tags must be closed in an appropriate order, i.e., an
+XML tag opened inside another element must be closed before
+the outer element is closed. For example: -->
+<outer_element>
+   <internal_element>
+      This tag is closed before the outer_element
+   </internal_element>
+</outer_element>
